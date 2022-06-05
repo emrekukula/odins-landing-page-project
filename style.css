@@ -1,11 +1,11 @@
-* {
-    border: solid;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
-
-body {
-
-}
-
 
 .header {
     padding-left: 100px;
@@ -20,19 +20,24 @@ body {
     justify-content: space-between;
 }
 
+a {
+    display: flex;
+    justify-content: end;
+}
+
 .section-1 {
     display: flex;
     background-color: #1F2937;
     gap: 30px;
     padding-left: 100px;
+    padding-top: 50px;
 }
 
 .logo { 
     display: flex;
-    margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
-
+    align-items: baseline;
 }
 
 .header-links {
@@ -40,12 +45,13 @@ body {
    text-decoration: none;
    font-size: 18px;
    color: #E5E7EB;
-
+   gap: 15px;
 }
 
 button {
     background-color: #3882F6;
     justify-content: left;
+    margin-top: 5px;
 }
 
 .info {
@@ -74,12 +80,17 @@ img {
     max-height: 250px;
     max-height: auto;
     padding-right: 100px;
+    padding-bottom: 100px;
 }
 
 .text {
     display: flex;
     padding: 10px;
-    gap: 20px;
+    text-align: center;
+}
+
+.img {
+    border-radius: 25px;    
 }
 
 .images {
@@ -96,6 +107,7 @@ img {
     text-align: right;
     font-size: 25px;
     font-weight: bold;
+    padding-bottom: 100px;
 }
 
 .section-4 {
@@ -103,17 +115,22 @@ img {
     background-color: #3882F6;
     flex: auto;
     color: white;
-    padding: 20px;
-    padding-left: 100px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 65px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 6px;
 }
 
 .footer {
     justify-content: center;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: rgba(204, 190, 190, 0.878);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .content {
@@ -128,9 +145,8 @@ img {
     color: #F9FAF8;
   }
 
-  .hero-seconday-text {
-      display: flex;
-      color: #E5E7EB;
+  .hero-secondary-text { 
+      color: #c7ccc3;
       font-size: 18px;
   }
 
@@ -138,6 +154,7 @@ img {
       background-color: #E5E7EB;
       padding-left: 150px;
       padding-right: 150px;
+      padding-top: 100px;
   }
 
   .sign-bottom {
@@ -145,4 +162,13 @@ img {
       border: white;
       margin: auto;
       color: white;
+  }
+
+  .sign-top {
+      border-radius: 6px;
+      font-size: bold;
+      color: white;
+      padding: 6px;
+      padding-left: 20px;
+      padding-right: 20px;
   }
