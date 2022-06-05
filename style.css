@@ -1,0 +1,72 @@
+* {
+    border: solid;
+}
+
+body {
+
+}
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.logo { 
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.header-links {
+   display: flex;
+   text-decoration: none;
+}
+
+button {
+    background-color: blue;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    height: 50px;
+    width: auto;
+}
+
+.text {
+    display: inline;
+}
+
+.images {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.quoter {
+    display: inline;
+    justify-content: left;
+}
+
+.section-5 {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
+
+.section-4 {
+
+}
